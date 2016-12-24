@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp">
+
+        <ImageView
+            android:id="@+id/ivMd"
+            android:layout_marginTop="6dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="60dp"
+            android:src="@drawable/ic_calling_head"
+            android:layout_height="60dp" />
+
+        <TextView
+            android:id="@+id/tvMd"
+            android:layout_width="wrap_content"
+            android:text="测试"
+            android:layout_below="@id/ivMd"
+            android:layout_centerInParent="true"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+</RelativeLayout>
